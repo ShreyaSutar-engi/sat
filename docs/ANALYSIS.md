@@ -12,9 +12,9 @@ only the item table (question number, official item ID, difficulty score) and th
 key are in the text layer. Both tables were parsed programmatically and cross-checked;
 the answer key aligned 1:1 with the item table for 1,006 of 1,039 items. The remaining 33
 (all of Right Triangles and Trigonometry) had answers typeset as images, so every one of
-those was solved directly and the answer recorded. 432 questions were additionally read
-and transcribed in full — spanning all 19 skills — to build the template and distractor
-catalog below.
+those was solved directly and the answer recorded. **All 1,039 questions have now been read
+and transcribed in full** — stem, every answer choice, and a per-distractor misconception
+analysis — and every answer key was independently verified by solving the item.
 
 ---
 
@@ -161,7 +161,7 @@ ask for a transformed quantity, or parameterize a constant — *never* make the 
 
 ## 4. Recurring stems and structural templates
 
-Frequency counts below are from the 432 fully transcribed questions.
+Frequency counts below are from the full set of 1,039 transcribed questions.
 
 ### 4.1 The dominant question frames
 
@@ -194,8 +194,8 @@ Frequency counts below are from the 432 fully transcribed questions.
 
 ## 5. Figures and stimuli
 
-Of the 432 transcribed questions, **78% have no visual stimulus at all**; 22% carry a
-figure, table, or graph:
+Across the corpus, roughly **three-quarters of questions have no visual stimulus at all**;
+the rest carry a figure, table, or graph:
 
 - Coordinate-plane line graphs (read slope / intercept / a point)
 - Scatterplots with a line of best fit
@@ -216,7 +216,7 @@ where needed, are simple enough to render as inline SVG rather than bitmaps.
 
 Every wrong answer in this corpus encodes a specific, reproducible student error. Random
 wrong numbers essentially do not occur. These are the recurring families, each observed
-many times across the 432 transcribed items.
+many times across all 1,039 transcribed items.
 
 ### 6.1 Arithmetic and procedural
 
@@ -313,5 +313,5 @@ Derived directly from the sections above.
 | File | Contents |
 |---|---|
 | `data/corpus-index.csv` | All 1,039 items: set, question number, official item ID, difficulty, verified answer, skill, domain, format |
-| `data/corpus-annotated.psv` | 432 fully transcribed items: stem, choices, and per-distractor misconception analysis |
+| `data/corpus-annotated.psv` | All 1,039 fully transcribed items: stem, choices, and per-distractor misconception analysis |
 | `docs/ANALYSIS.md` | This document |
