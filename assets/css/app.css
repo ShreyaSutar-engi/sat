@@ -195,7 +195,7 @@ p  { margin: 0; }
 
 .grid2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-@media (max-width: 560px) { .grid3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 400px) { .grid3 { gap: 8px; } .tile { padding: 11px; } .tile__val { font-size: 1.3rem; } }
 
 /* ============================================================ buttons */
 .btn {
@@ -260,8 +260,8 @@ p  { margin: 0; }
   display: grid; place-items: center; font-size: 1.1rem;
   background: var(--brand-dim); color: var(--brand);
 }
-.mode__title { font-weight: 700; font-size: .98rem; }
-.mode__desc { font-size: .8rem; color: var(--ink-2); margin-top: 2px; }
+.mode__title { display: block; font-weight: 700; font-size: .98rem; }
+.mode__desc { display: block; font-size: .8rem; color: var(--ink-2); margin-top: 2px; line-height: 1.4; }
 .mode__go { color: var(--ink-3); font-size: 1.1rem; }
 
 /* ============================================================ chips */
